@@ -4,7 +4,7 @@ require("./db/conn")
 const User= require("./models/usermsg")
 const hbs = require("hbs");
 const app = express();
-const port = process.env.Port || 4000
+const port = process.env.Port || 4000;
 
 //setting the path
 const staticpath =path.join(__dirname,"../public");
